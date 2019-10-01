@@ -10,5 +10,12 @@ public class Main {
                 DecimalComparator.areEqualByThreeDecimalPlaces(-3.175, -3.1755));
         System.out.println("EqualSumChecker: " + EqualSumChecker.hasEqualSum(1, -1, 0));
         System.out.println("TeenNumberChecker: " + TeenNumberChecker.hasTeen(23, 15, 42));
+
+        System.out.println("AreaCalculator: " + AreaCalculator.area(5.0));
+        System.out.println("AreaCalculator: " + AreaCalculator.area(5.0, 4.0));
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+        IntEqualityPrinter.printEqual(1,3,2);
+        System.out.println("PlayingCat: " + PlayingCat.isCatPlaying(true, 45));
+
     }
 }
