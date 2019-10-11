@@ -23,6 +23,20 @@ public class Main {
         System.out.println("NumberToWords.getDigitCount(): " + NumberToWords.getDigitCount(5200));
         System.out.println("NumberToWords.reverse(): " + NumberToWords.reverse(-100));
 
+        // parse value
+        System.out.println("FlourPacker: " + FlourPacker.canPack(1, 0, 4));
+        System.out.println("FlourPacker: " + FlourPacker.canPack(1, 0, 5));
+        System.out.println("FlourPacker: " + FlourPacker.canPack(0, 5, 4));
+        System.out.println("FlourPacker: " + FlourPacker.canPack(2, 2, 11));
+        System.out.println("FlourPacker: " + FlourPacker.canPack(-3, 2, 12));
+        System.out.println("LargestPrime 21: " + LargestPrime.getLargestPrime(21));
+        System.out.println("LargestPrime 217: " + LargestPrime.getLargestPrime(217));
+        System.out.println("LargestPrime 0: " + LargestPrime.getLargestPrime(0));
+        System.out.println("LargestPrime 45: " + LargestPrime.getLargestPrime(45));
+        System.out.println("LargestPrime -1: " + LargestPrime.getLargestPrime(-1));
+        System.out.println("DiagonalStar: ");
+        DiagonalStar.printSquareStar(8);
+
 
     }
 }
